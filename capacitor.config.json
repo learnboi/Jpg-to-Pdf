@@ -1,0 +1,31 @@
+{
+  "appId": "com.jpgtopdf.converter",
+  "appName": "JPG to PDF",
+  "webDir": "dist",
+  "server": {
+    "androidScheme": "https"
+  },
+  "plugins": {
+    "Camera": {
+      "permissions": {
+        "camera": "This app needs camera access to capture photos for PDF conversion."
+      }
+    },
+    "Filesystem": {
+      "permissions": {
+        "read": "This app needs file read access to save PDFs.",
+        "write": "This app needs file write access to save PDFs."
+      }
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+
